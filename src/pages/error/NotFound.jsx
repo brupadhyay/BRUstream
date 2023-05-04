@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <div className="app">
       <h3>The Page you're looking for is not found</h3>
-      <button onClick={() => navigate("/videos")}>Go to Videos</button>
+      <button className="home-btn" onClick={() => navigate("/videos")}>Go to Videos</button>
     </div>
   );
 }
