@@ -51,6 +51,10 @@ button {
   font-weight: 600;
 }
 
+p {
+  padding: 8px;
+}
+
 .videos-page {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +62,7 @@ button {
 
 .video-listing {
   position: relative;
-  width: 250px;
+  width: 300px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 1rem auto;

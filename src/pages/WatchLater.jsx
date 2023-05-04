@@ -5,16 +5,19 @@ export default function WatchLater() {
   const { watchLater } = getWatchLater();
 
   return (
-    <div className="app">
-      <h4>Watch Later</h4>
+    <>
+    <h4>Watch Later</h4>
       {watchLater.length === 0 && (
         <p>
           <strong>No videos to watch later</strong>
         </p>
       )}
+    <div className="videos-page">
+      
       {watchLater.map((video) => (
         <VideoListing key={video.id} {...video} />
       ))}
     </div>
+    </>
   );
 }

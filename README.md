@@ -1,2 +1,2 @@
 # BRUstream
-Created with CodeSandbox
+Video Library App built with ReactJS

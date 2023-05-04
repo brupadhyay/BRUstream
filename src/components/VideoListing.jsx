@@ -43,10 +43,12 @@ export default function VideoListing({
 
   return (
     <div style={{
-      width: detail && "400px",
+      width: detail && "65%",
     }} className="video-listing">
       {detail ? (
-        <iframe
+        <iframe style={{
+          height: "350px"
+        }}
           width="100%"
           src={`https://www.youtube.com/embed/${url.split("=")[1]}`}
           title="YouTube video player"
