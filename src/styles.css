@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary-color: #3b82f6;
+  --primary-color: #286ee0;
   --secondary-color: #60a5fa;
   --padding-small: 8px;
   --padding-big: 12px;
@@ -72,21 +72,14 @@ p {
   width: 100%;
 }
 
-.video-listing hr {
-  color: black;
-  position: absolute;
-  width: 30%;
-  bottom: 24px;
-  right: 0;
-  left: 0;
-}
 
 .video-listing button {
   display: block;
-  width: 100%;
+  width: 50%;
+  margin: 0.5rem auto;
   border: 0;
-  border-radius: 0;
+  border-radius: 0.375rem;
 }
 .video-listing button:hover {
-  color: black;
+  background-color: var(--primary-color);
 }

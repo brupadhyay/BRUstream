@@ -72,7 +72,6 @@ export default function VideoListing({
       )}
 
       {isAlreadyLikedVideo(id) ? <ButtonToDislike /> : <ButtonToLike />}
-      <hr />
       {isPresentInWatchLater(id) ? (
         <RemoveButtonForWatchLater />
       ) : (
