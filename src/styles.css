@@ -29,6 +29,7 @@
 .header {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
   padding: var(--padding-small) var(--padding-big);
 }
 
@@ -37,6 +38,7 @@
   background-color: var(--secondary-color);
   padding: var(--padding-small) var(--padding-big);
   border-radius: 0.375rem;
+  border: 0;
   font-weight: 600;
   font-size: 1.1rem;
 }
@@ -56,8 +58,7 @@ button {
 
 .video-listing {
   position: relative;
-  margin: 1rem;
-  max-width: 250px;
+  width: 250px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 1rem auto;

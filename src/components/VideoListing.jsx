@@ -42,7 +42,9 @@ export default function VideoListing({
   );
 
   return (
-    <div className="video-listing">
+    <div style={{
+      width: detail && "400px",
+    }} className="video-listing">
       {detail ? (
         <iframe
           width="100%"
